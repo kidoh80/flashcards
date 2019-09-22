@@ -1,6 +1,7 @@
 var min = 1;
 var max = 12;
-var random1 = Math.floor(Math.random() * (+max - +min) + +min);
+//var random1 = Math.floor(Math.random() * (+max - +min) + +min);
+var random1 = 4;
 var random2 = Math.floor(Math.random() * (+max - +min) + +min);
 var first = document.getElementById("first_num");
 var second = document.getElementById("second_num");
@@ -13,7 +14,8 @@ var correctAnswer = false;
 function newCard() {
     var result = document.getElementById("result");
     var userAnswer = document.getElementById("answer");
-    random1 = Math.floor(Math.random() * (+max - +min) + +min); 
+//    random1 = Math.floor(Math.random() * (+max - +min) + +min); 
+    random1 = 4; 
     random2 = Math.floor(Math.random() * (+max - +min) + +min); 
     first.innerHTML = random1; 
     second.innerHTML = random2; 
